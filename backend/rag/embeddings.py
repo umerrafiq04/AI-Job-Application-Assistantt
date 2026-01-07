@@ -1,7 +1,7 @@
 from langchain_mistralai import MistralAIEmbeddings
 
-# ⚠️ Hard-coded for now (OK for local testing)
-MISTRAL_API_KEY = "05M3e310UpAluqszzJMayblJMIvViXqf"
+
+MISTRAL_API_KEY = "05M3e310"
 
 def get_embeddings(texts: list[str]):
     embeddings = MistralAIEmbeddings(
