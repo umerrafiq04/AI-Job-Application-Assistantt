@@ -39,7 +39,7 @@ class CandidateProfile(BaseModel):
     location: str
 from langchain_mistralai import ChatMistralAI
 llm = ChatMistralAI(
-    api_key="05M3e310UpAluqszzJMayblJMIvViXqf",
+    api_key="05M3e310U",
     model="mistral-small-latest"
 )
 
@@ -470,7 +470,7 @@ class JobAgentState(TypedDict, total=False):
 # LLM setup (lightweight, cheap)
 # -----------------------------------
 llm = ChatMistralAI(
-    api_key="05M3e310UpAluqszzJMayblJMIvViXqf",
+    api_key="05M3e310",
     model="mistral-small-latest"
 )
 skill_parser = JsonOutputParser()
