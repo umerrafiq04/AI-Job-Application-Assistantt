@@ -137,6 +137,26 @@ AI-Job-Application-Assistant/
 ```
 
 ---
+**System Arhitecture**
+Streamlit UI
+     ↓
+FastAPI Backend
+     ↓
+Resume Ingestion (RAG)
+     ↓
+LangGraph Job Agent
+     ↓
+Job Fetching (Email + APIs)
+     ↓
+Parsing & Skill Extraction
+     ↓
+Semantic Matching
+     ↓
+Ranking
+     ↓
+Cover Letter Generation
+     ↓
+Google Sheets Storage
 
 ## Technology Stack
 
@@ -185,4 +205,5 @@ B.Tech (Computer Science & Engineering)
 
 🔗 GitHub:
 [https://github.com/umerrafiq04/AI-Job-Application-Assistant](https://github.com/umerrafiq04/AI-Job-Application-Assistant)
+
 
