@@ -134,10 +134,9 @@ AI-Job-Application-Assistant/
 ├── .gitignore
 ├── api.py
 └── README.md
-```
 
----
-**System Arhitecture**
+
+SYSTEM ARCHITECTURE 
 Streamlit UI
      ↓
 FastAPI Backend
@@ -158,6 +157,9 @@ Cover Letter Generation
      ↓
 Google Sheets Storage
 
+```
+
+---
 ## Technology Stack
 
 **Languages & Frameworks**
@@ -205,5 +207,6 @@ B.Tech (Computer Science & Engineering)
 
 🔗 GitHub:
 [https://github.com/umerrafiq04/AI-Job-Application-Assistant](https://github.com/umerrafiq04/AI-Job-Application-Assistant)
+
 
 
