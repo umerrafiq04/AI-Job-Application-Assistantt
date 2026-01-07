@@ -1,0 +1,108 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.whl
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+venv/
+env/
+.myenv/
+ENV/
+.venv/
+
+# -------------------------
+# Environment & Secrets
+# -------------------------
+.env
+.env.*
+*.env
+
+# -------------------------
+# Google / OAuth / API Secrets
+# -------------------------
+credentials.json
+service_account.json
+token.pickle
+backend/agent/credentials.json
+backend/agent/token.pickle
+backend/service_account.json
+
+# -------------------------
+# Uploaded Files
+# -------------------------
+uploads/
+*.pdf
+
+# -------------------------
+# Vector Stores / RAG Data
+# -------------------------
+vectors/
+chroma/
+faiss_index/
+*.faiss
+*.pkl
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/secrets.toml
+
+# -------------------------
+# Logs & Temp
+# -------------------------
+*.log
+*.tmp
+*.temp
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# IDEs
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Build / Dist
+# -------------------------
+build/
+dist/
+
+# -------------------------
+# Node (if ever added)
+# -------------------------
+node_modules/
+
+# -------------------------
+# Coverage
+# -------------------------
+htmlcov/
+.coverage
+
+# -------------------------
+# Cache
+# -------------------------
+.cache/
